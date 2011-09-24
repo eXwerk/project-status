@@ -1,0 +1,35 @@
+#projects {
+		display: table;
+}
+
+#header {
+		display: table-header-group;
+}
+
+.header-element {
+		display: table-cell;
+		text-decoration: underline;
+		font-weight: bold;
+}
+
+.project {
+		display: table-row;
+		margin: 20px;
+}
+
+.project-name {
+		display: table-cell;
+}
+
+progress {
+		display: table-cell;
+		width: 3300px;
+}
+
+.project-progress-name {
+		display: table-cell;
+}
+
+.project-contact {
+		display: table-cell;
+}
