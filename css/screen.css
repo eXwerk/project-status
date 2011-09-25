@@ -14,7 +14,6 @@
 
 .project {
 		display: table-row;
-		margin: 20px;
 }
 
 .project-name {
@@ -23,7 +22,8 @@
 
 progress {
 		display: table-cell;
-		width: 300px;
+		width: 150px;
+		padding: 5px;
 }
 
 .project-progress-name {
@@ -32,4 +32,8 @@ progress {
 
 .project-contact {
 		display: table-cell;
+}
+
+div {
+		padding: 5px;
 }
