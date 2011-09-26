@@ -17,7 +17,8 @@ main(void)
 				exit(EXIT_FAILURE);
 		
 		printf ("<!DOCTYPE HTML>\n");
-		printf ("\t<html>\n");
+		printf ("<html>\n");
+		printf ("\t<head>\n");
 		printf ("\t\t<meta charset=\"utf-8\" />\n");
 		printf ("\t\t<title>eXwerk Projektstati</title>\n");
 		printf ("\t\t<link rel=\"stylesheet\" href=\"css/screen.css\" type=\"text/css\" />\n");
