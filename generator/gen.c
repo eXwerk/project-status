@@ -11,6 +11,16 @@ main(void)
 		char *token;
 		size_t len = 0;
 		ssize_t read;
+		static const char *phase[] = {"Unbekannt",
+				"Ideenphase",
+				"Planungsphase",
+				"Antragsphase",
+				"Bestellphase",
+				"Enwticklungs-/Bauphase 00%-25%",
+				"Enwticklungs-/Bauphase 26%-50%",
+				"Enwticklungs-/Bauphase 51%-75%",
+				"Enwticklungs-/Bauphase 76%-99%",
+				"Fertig :-)"};
 		
 		fp = fopen("projects.list", "r");
 		if (fp == NULL)
@@ -39,7 +49,7 @@ main(void)
 				printf ("\t\t\t\t<div class=\"project-name\">%s</div>\n", token);
 				token = strtok (NULL, ";");
 				printf ("\t\t\t\t<progress value=\"%s\" max=\"9\"></progress>\n", token);
-				printf ("\t\t\t\t<div class=\"project-progress-name\"></div>\n");				
+				printf ("\t\t\t\t<div class=\"project-progress-name\">%s</div>\n", phase[ atoi (token) ]);				
 				token = strtok (NULL, ";");
 				printf ("\t\t\t\t<div class=\"project-contact\">%s</div>\n", token);
 				printf ("\t\t\t</div>\n");
