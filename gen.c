@@ -57,9 +57,9 @@ main(void)
 		
 		free(line);
 
-		printf ("\t\t%s", "</section>\n");
-		printf ("\t%s", "</body>\n");
-		printf ("%s", "</html>\n");
+		printf ("\t\t</section>\n");
+		printf ("\t</body>\n");
+		printf ("</html>\n");
 
 		exit(EXIT_SUCCESS);
 }
