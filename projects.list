@@ -1,13 +1,16 @@
-CNC-Fräse;4;Burkart
-3D Drucker;2;stenosis
+CNC-Fräse;5;Burkart
+3D Drucker;3;stenosis
+Spintschrank;4;EllioneK
+Jeopardy;3;steeb,apex
+8x8x8 LED Cube;3;Tsurai
+Laser Harp;2;Pascal
+Van-de-Graaff-Generator;6;Axel
 LED-Tisch;0;Phillip
-PiBoy;1;stenosis
-autonomer Zeppelin;2;steeb
 Theke;2;electria
-Grill;0;Physikalische Technik / Maschinenbauer
+WLAN Meshnetworking;1;apex
 Automatisierungs-Protokoll (AVR);1;steeb
 eXwerk Board (AVR);1;steeb
-Van-de-Graaff-Generator;6;Axel
-WLAN Meshnetworking;1;apex
+PiBoy;1;stenosis
+autonomer Zeppelin;1;
 Water Rocket;1;
-Jeopardy;2;stee,apex
+Grill;0;Physikalische Technik / Maschinenbauer
