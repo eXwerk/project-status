@@ -1,16 +1,18 @@
-CNC-Fräse;5;Burkart
-3D Drucker;3;stenosis
-Spintschrank;4;EllioneK
-Jeopardy;3;steeb,apex
-8x8x8 LED Cube;3;Tsurai
-Laser Harp;2;Pascal
-Van-de-Graaff-Generator;6;Axel
-LED-Tisch;0;Phillip
-Theke;2;electria
-WLAN Meshnetworking;1;apex
-Automatisierungs-Protokoll (AVR);1;steeb
-eXwerk Board (AVR);1;steeb
-PiBoy;1;stenosis
-autonomer Zeppelin;1;
-Water Rocket;1;
-Grill;0;Physikalische Technik / Maschinenbauer
+CNC-Fräse;5;Burkart (FB 1/5)
+3D Drucker;3;stenosis (FB 5)
+Spintschrank;4;EllioneK (FB 5)
+Antennenstativ;4; (FB 4)
+Jeopardy;3;steeb,apex (FB 5)
+8x8x8 LED Cube;3;Tsurai (FB 5)
+Laser Harp;2;Pascal (FB 5)
+Seebeck Generator;2;Marvin (FB 5)
+Van-de-Graaff-Generator;6;Axel (FB _)
+LED-Tisch;0;Phillip (FB 5)
+Theke;2;electria (FB 2)
+WLAN Meshnetworking;1;apex (FB 5)
+Automatisierungs-Protokoll (AVR);1;steeb (FB 5)
+eXwerk Board (AVR);1;steeb (FB 5)
+PiBoy;1;stenosis (FB 5)
+autonomer Zeppelin;1; (FB _)
+Water Rocket;1; (FB _)
+Grill;0; (FB 4/_)
